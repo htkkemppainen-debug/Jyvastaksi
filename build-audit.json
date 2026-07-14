@@ -1,0 +1,26 @@
+{
+  "source_zip": "jyvastaksi_korjattu_keula_cloudflare(2).zip",
+  "homepage": "index.html",
+  "pages": [
+    "/",
+    "/palvelut/",
+    "/hinnasto/",
+    "/yhteystiedot/"
+  ],
+  "hero_image_source": "first/correct source image from user package",
+  "gallery_image_source": "same exact source image as hero, ensuring identical bumper",
+  "assets_externalized": true,
+  "form_endpoint_preserved": "https://formspree.io/f/mzdnzvzg",
+  "seo": [
+    "canonical",
+    "robots",
+    "Open Graph",
+    "Twitter Card",
+    "JSON-LD",
+    "FAQ",
+    "sitemap",
+    "robots.txt",
+    "responsive images",
+    "internal links"
+  ]
+}
