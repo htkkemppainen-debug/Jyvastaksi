@@ -4,6 +4,10 @@
   X-Frame-Options: SAMEORIGIN
   Permissions-Policy: camera=(), microphone=(), geolocation=()
   Cross-Origin-Opener-Policy: same-origin
+  Content-Security-Policy: frame-ancestors 'self'; upgrade-insecure-requests
+
+/*.html
+  Cache-Control: public, max-age=3600
 
 /assets/*
   Cache-Control: public, max-age=31536000, immutable
