@@ -1,2 +1,6 @@
 https://www.jyvastaksi.fi/* https://jyvastaksi.fi/:splat 301
-/index.html / 301
+/palvelut.html /palvelut/ 301
+/hinnasto.html /hinnasto/ 301
+/yhteystiedot.html /yhteystiedot/ 301
+/usein-kysyttya.html /usein-kysyttya/ 301
+/tietosuoja.html /tietosuoja/ 301

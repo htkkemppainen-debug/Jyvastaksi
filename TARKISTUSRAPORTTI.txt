@@ -1,0 +1,35 @@
+JYVÄSTAKSI – SIVUSTON KORJAUS JA OPTIMOINTI 3.8.2026
+
+Korjattu etusivun visuaalinen rakenne:
+- poistettu kiinteisiin korkeuksiin ja päällekkäisiin kerroksiin perustuva hero-rakenne
+- estetty vaakasuuntainen ylivuoto mobiilissa
+- hero-kuva skaalautuu säiliön mukana ilman leikkautumista
+- autokortit asettuvat työpöydällä neljään, tabletilla kahteen ja puhelimella yhteen sarakkeeseen
+- otsikkokoko ja painikkeet skaalautuvat pienille näytöille
+- kiinteä mobiilipuhelupainike ei peitä alatunnistetta
+
+Rakenne ja konversio:
+- tärkein toiminto, suora puhelu autoon, nostettu ensimmäiseksi
+- erillinen autovalinta omilla numeroilla
+- toimimaton yhteydenottolomake poistettu
+- palvelut, hinnasto, yhteystiedot ja FAQ erotettu omille sivuille
+- sisältöä tiivistetty ja toistoa vähennetty
+
+Hakukoneoptimointi:
+- yksilölliset title-otsikot ja meta-kuvaukset
+- yksi H1 jokaisella sivulla
+- canonical-osoitteet
+- TaxiService-rakenteinen data
+- päivitetty sitemap.xml ja robots.txt
+- selkeät sisäiset linkit
+- vanhojen .html-osoitteiden uudelleenohjaukset
+
+Tekninen optimointi:
+- ei ulkopuolisia fontteja tai raskaita kirjastoja
+- kevyt SVG-kuvitus
+- saavutettava valikko ja ohituslinkki
+- turvallisuusotsakkeet Cloudflarelle
+- ei analytiikka- tai markkinointievästeitä tässä versiossa
+
+Huomio:
+Hinnat ja puhelinnumerot on säilytetty nykyisen julkisen sivuston tietojen mukaisina. Tarkista ne vielä ennen julkaisua.
