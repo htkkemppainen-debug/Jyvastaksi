@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 620" role="img" aria-labelledby="title desc">
+<title id="title">Tyylitelty musta Jyvästaksi</title>
+<desc id="desc">Musta edustava taksi keltaisella taksivalolla iltavalaistussa kaupunkiympäristössä.</desc>
+<defs>
+  <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#222a33"/><stop offset=".55" stop-color="#0d1014"/><stop offset="1" stop-color="#050607"/></linearGradient>
+  <linearGradient id="car" x1="0" y1="0" x2="0" y2="1"><stop stop-color="#3c4249"/><stop offset=".42" stop-color="#15181c"/><stop offset="1" stop-color="#050607"/></linearGradient>
+  <linearGradient id="glass" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#273544"/><stop offset="1" stop-color="#090c10"/></linearGradient>
+  <radialGradient id="road"><stop stop-color="#ffd20a" stop-opacity=".25"/><stop offset="1" stop-color="#ffd20a" stop-opacity="0"/></radialGradient>
+  <filter id="shadow" x="-30%" y="-30%" width="160%" height="180%"><feDropShadow dx="0" dy="30" stdDeviation="24" flood-color="#000" flood-opacity=".8"/></filter>
+  <filter id="glow"><feGaussianBlur stdDeviation="10"/></filter>
+</defs>
+<rect width="1000" height="620" rx="44" fill="url(#bg)"/>
+<g opacity=".22" stroke="#fff" stroke-width="2">
+  <path d="M0 170h1000M0 290h1000M0 410h1000"/>
+  <path d="M140 0v620M340 0v620M560 0v620M790 0v620"/>
+</g>
+<circle cx="800" cy="130" r="150" fill="#ffd20a" opacity=".08"/>
+<path d="M0 500C240 430 650 445 1000 520V620H0Z" fill="#070809"/>
+<ellipse cx="560" cy="540" rx="370" ry="76" fill="url(#road)"/>
+<g filter="url(#shadow)">
+  <path d="M190 443c23-55 72-93 142-107l96-92c24-23 53-35 86-35h171c43 0 76 15 104 48l71 84c55 14 91 46 102 102l7 43H174l16-43Z" fill="url(#car)" stroke="#59616a" stroke-width="3"/>
+  <path d="M390 331l70-70c17-17 35-24 63-24h148c31 0 53 11 74 36l48 58H390Z" fill="url(#glass)" stroke="#606b75" stroke-width="3"/>
+  <path d="M588 238v93" stroke="#707982" stroke-width="4" opacity=".55"/>
+  <path d="M205 440h742" stroke="#737980" stroke-width="3" opacity=".32"/>
+  <path d="M732 406h127" stroke="#ffd20a" stroke-width="8" stroke-linecap="round"/>
+  <path d="M245 406h98" stroke="#d3d9df" stroke-width="7" stroke-linecap="round" opacity=".8"/>
+  <rect x="546" y="176" width="102" height="43" rx="12" fill="#ffd20a"/>
+  <text x="597" y="204" text-anchor="middle" font-family="Arial,Helvetica,sans-serif" font-size="17" font-weight="900" fill="#111">JYTAKSI</text>
+  <g>
+    <circle cx="336" cy="480" r="73" fill="#050607" stroke="#252a2f" stroke-width="12"/>
+    <circle cx="336" cy="480" r="34" fill="#636b73"/>
+    <circle cx="336" cy="480" r="12" fill="#15181b"/>
+    <circle cx="796" cy="480" r="73" fill="#050607" stroke="#252a2f" stroke-width="12"/>
+    <circle cx="796" cy="480" r="34" fill="#636b73"/>
+    <circle cx="796" cy="480" r="12" fill="#15181b"/>
+  </g>
+</g>
+<ellipse cx="864" cy="410" rx="100" ry="26" fill="#ffd20a" opacity=".22" filter="url(#glow)"/>
+<text x="58" y="74" fill="#fff" font-family="Arial,Helvetica,sans-serif" font-size="22" font-weight="800" letter-spacing="3">JYVÄSTAKSI</text>
+<text x="58" y="105" fill="#a8adb5" font-family="Arial,Helvetica,sans-serif" font-size="14" font-weight="600" letter-spacing="2">PAIKALLINEN TAKSIPALVELU</text>
+</svg>
