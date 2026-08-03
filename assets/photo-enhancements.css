@@ -1,0 +1,91 @@
+.hero-photo-wrap {
+  isolation: isolate;
+}
+
+.hero-photo-wrap::after {
+  background: linear-gradient(180deg, transparent 55%, rgba(0, 0, 0, 0.35));
+  border-radius: 30px;
+  content: "";
+  inset: 0;
+  pointer-events: none;
+  position: absolute;
+  z-index: 1;
+}
+
+.hero-photo-wrap picture {
+  display: block;
+}
+
+.hero-photo-wrap .hero-photo {
+  aspect-ratio: 16 / 10;
+  object-fit: cover;
+  object-position: center 58%;
+}
+
+.hero-photo-wrap .hero-badge {
+  z-index: 2;
+}
+
+.fleet-photo-panel {
+  padding: 0;
+}
+
+.fleet-photo-panel::after {
+  background: linear-gradient(180deg, transparent 45%, rgba(0, 0, 0, 0.82));
+  border-radius: inherit;
+  bottom: 0;
+  box-shadow: none;
+  content: "";
+  height: 58%;
+  left: 0;
+  position: absolute;
+  right: 0;
+  width: auto;
+  z-index: 1;
+}
+
+.fleet-photo-panel picture,
+.fleet-photo-panel img {
+  height: 100%;
+  width: 100%;
+}
+
+.fleet-photo-panel img {
+  object-fit: cover;
+  object-position: center 58%;
+}
+
+.fleet-photo-caption {
+  bottom: 26px;
+  display: grid;
+  gap: 4px;
+  left: 28px;
+  position: absolute;
+  right: 28px;
+  z-index: 2;
+}
+
+.fleet-photo-caption strong {
+  font-family: Georgia, "Times New Roman", serif;
+  font-size: clamp(1.6rem, 3vw, 2.5rem);
+  font-weight: 400;
+}
+
+.fleet-photo-caption span {
+  color: #c7cad0;
+  font-size: 0.88rem;
+}
+
+@media (max-width: 600px) {
+  .hero-photo-wrap::after {
+    border-radius: 22px;
+  }
+
+  .hero-photo-wrap .hero-photo {
+    aspect-ratio: 4 / 3;
+  }
+
+  .fleet-photo-panel {
+    min-height: 340px;
+  }
+}
